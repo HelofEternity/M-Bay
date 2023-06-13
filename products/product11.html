@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ürün Sayfası</title>
+    <link rel="stylesheet" href="../css/basekit.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/products.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="gridheader">
+        <div class="headerdropnav displaynone">
+          <i class="fa-solid fa-bars"></i>
+          <ul class="headerdropnavul displaynone">
+            <li><a href="../altin.html">Altın</a></li>
+            <li><a href="../pirlanta.html">Pırlanta</a></li>
+            <li><a href="../koleksiyonlar.html">Koleksiyonlar</a></li>
+            <li><a href="../erkek.html">Erkek</a></li>
+            <li><a href="../sss.html">S.S.S.</a></li>
+          </ul>
+        </div>
+        <div class="headerlogodiv">
+          <a href="../index.html"
+            ><img class="headerlogo" src="../images/mbaylogo.png" alt="mbaylogo"
+          /></a>
+        </div>
+        <div class="headercenternav">
+          <ul>
+            <li><a href="../altin.html">Altın</a></li>
+            <li><a href="../pirlanta.html">Pırlanta</a></li>
+            <li><a href="../koleksiyonlar.html">Koleksiyonlar</a></li>
+            <li><a href="../erkek.html">Erkek</a></li>
+            <li><a href="../sss.html">S.S.S.</a></li>
+          </ul>
+        </div>
+        <div class="headerrightnav">
+          <div class="sepetdiv">
+            <a href="../sepet.html"
+              ><span id="sellicon" class="material-symbols-outlined"> sell </span>
+              <span class="sepet">Sepet</span></a
+            >
+          </div>
+          <div class="searchbardiv">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <input
+              type="search"
+              class="headerrightsearch displaynone"
+              placeholder="Ara"
+            />
+          </div>
+          <div class="loginbuttondiv">
+            <a href="../login.html"><button class="login">Giriş</button></a>
+          </div>
+        </div>
+      </header>
+
+    <!-- Main -->
+    
+<div id="productmain">
+  <h1 id="prodtitle"><span>Sarı Altın Tasarım Taşlı Küpe
+  </span></h1>
+  <div id="imganddesc">
+    <img src="../images/altın-küpe3.jpg" alt="Altınyüzük3.jpg" id="prodimg">
+    <div id="sidedescription">
+      <div id="prodprice"><span>18.475 ₺</span></div>
+      <div id="proddescription"><span>Sarı altının doğal ışıltısı, sizin güzelliğinizi vurgulayacak ve her adımınızda size övgüler getirecektir. Bu küpe, kaliteli malzemelerin birleşimiyle uzun ömürlü bir kullanım sunar. 
+        Aynı zamanda, özenle seçilen tasarım taşları, küpeye göz kamaştırıcı bir parlaklık kazandırır.</span></div>
+      <div><button onclick="cartFunction()" id="cartbutton" >Sepete Ekle</div>    
+    </div>  
+  </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="gridfooter">
+        <div class="informational">
+          <h3>Bilgi</h3>
+          <ul>
+            <li>Gizlilik ve Güvenlik Politikası</li>
+            <li>Mesafeli Satış Sözleşmesi</li>
+            <li>Üyelik ve Kullanıcı Sözleşmesi</li>
+          </ul>
+        </div>
+        <div class="contactinfo">
+          <h3>İletişim</h3>
+          <ul>
+            <li>+90 (507) 507 57 57</li>
+            <li>+90 (542) 542 54 54</li>
+            <li>siparis@mbaykuyumculuk.com.tr</li>
+          </ul>
+        </div>
+        <div class="safepay">
+          <img src="../images/kredi-karti-guvenli-alisveris-1-1.png" alt="" />
+        </div>
+        <div class="socialmedia">
+          <a href="https://www.instagram.com/emreternity" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/emrevegr9" target="_blank"
+            ><i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCkB-8r0WIXlfUmzwV_4Kuig"
+            target="_blank"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://www.tiktok.com/@emre.of.eternity" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </div>
+        <div></div>
+        <div class="copyright">
+          <i class="fa-regular fa-copyright"></i> 2023 M-Bay, Tüm Hakları
+          Saklıdır.
+        </div>
+      </footer>
+      <script src="../ts/main.js"></script>
+    </body>
+  </html>
+  
+
+    <script src="../ts/main.js"></script>
+    <script>
+      function cartFunction() {
+        alert("Ürün Sepete Eklendi!");
+      }
+    </script>
+  </body>
+</html>
