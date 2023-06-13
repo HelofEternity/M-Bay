@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M-Bay Kullanıcı Girişi</title>
+    <link rel="stylesheet" href="css/basekit.css" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="loginmain">
+      <div class="topper">
+        <img src="images/mbaylogox2.png" alt="mbaylogo" />
+        <h1>M-Bay Kullanıcı Girişi</h1>
+      </div>
+      <div class="fields">
+        <div class="username">
+          <input
+            id="username"
+            type="text"
+            placeholder="Kullanıcı Adı"
+            required
+            minlength="8"
+          />
+          <a id="forgotusername" href="">Kullanıcı Adımı Unuttum</a>
+        </div>
+        <div class="password">
+          <input
+            id="password"
+            type="password"
+            placeholder="Şifre"
+            minlength="8"
+          />
+          <a id="forgotpassword" href="">Şifremi Unuttum</a>
+        </div>
+        <div class="bottomer">
+          <a href=""><button id="loginbutton">Giriş Yap</button></a>
+          <a id="registerbutton" href="register.html">Kayıt Ol</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M-Bay Kullanıcı Kaydı</title>
+    <link rel="stylesheet" href="css/basekit.css" />
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <div class="loginmain">
+      <div class="topper">
+        <img src="images/mbaylogox2.png" alt="mbaylogo" />
+        <h1>M-Bay Kullanıcı Kaydı</h1>
+      </div>
+      <div class="fields">
+        <form action="http://localhost/PHPexec.php?f=D:\Desktop\Output\M-Bay Jewelry\php\register.php" method="post" autocomplete="off">
+          <div class="username">
+            <input
+              id="username"
+              type="text"
+              name="username"
+              placeholder="Kullanıcı Adı"
+              required
+              minlength="2"
+            />
+            <div class="email">
+              <input
+                id="email"
+                type="text"
+                name="email"
+                placeholder="E-Posta"
+                required
+                minlength="8"
+              />
+            </div>
+            <div class="password">
+              <input
+                id="password"
+                name="password"
+                type="password"
+                placeholder="Şifre (Min. 8 Karakter)"
+                minlength="8"
+              />
+            </div>
+            <div class="retypepassword">
+            <input
+              id="retypepassword"
+              type="password"
+              placeholder="Şifre'yi Tekrar Girin"
+              minlength="8"
+            />
+          </div>
+          <div class="newsletter">
+            <input
+              id="sendmailnewsletter"
+              type="checkbox"
+              name="receive_neswletter"
+            />
+            <label id="mailnewsletterlabel" for="sendmailnewsletter"
+              >Kampanyalardan Haberdar Olmak İçin E-posta İstiyorum</label
+            >
+          </div>
+        </form>
+        <div class="bottomer">
+          <a href=""
+            ><input id="loginbutton" type="submit" value="Kayıt Ol"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
