@@ -1,0 +1,112 @@
+body {
+  background-color: #f3eeea;
+}
+
+.loginmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #eeddcd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35rem;
+  padding: 2rem 0rem;
+  border-radius: 2rem;
+}
+
+.topper,
+.username,
+.password,
+.retypepassword,
+.email,
+.bottomer {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bottomer {
+  padding-top: 2rem !important;
+}
+
+.topper h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #7f5539;
+}
+
+.topper img {
+  height: 10rem;
+}
+
+#username,
+#password,
+#email,
+#retypepassword {
+  height: 3rem;
+  width: 27rem;
+  appearance: none;
+  font-weight: 300;
+  color: #595959;
+  border: #d0d0d0 0.1rem solid;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding-left: 0.3rem;
+}
+
+#loginbutton {
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #7f5539;
+  color: #ede0d4;
+  transition: all 0.2s;
+  border-radius: 1.3rem;
+  cursor: pointer;
+}
+
+#loginbutton:hover {
+  scale: 120%;
+  background-color: #ede0d4;
+  color: #7f5539;
+}
+
+#username:focus,
+#password:focus,
+#retypepassword:focus {
+  outline-color: #7f5539;
+}
+
+.newsletter {
+  display: flex;
+  padding-top: 0.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#sendmailnewsletter {
+  appearance: none;
+  height: 1rem;
+  width: 1.2rem;
+  border: 0.1rem solid #7f5539;
+  border-radius: 0.8rem;
+  transition: all 0.2s;
+  margin-right: 0.4rem;
+}
+
+#sendmailnewsletter:hover {
+  background-color: #ddb892;
+}
+
+#sendmailnewsletter:checked {
+  background-color: #b08968;
+}
+
+#mailnewsletterlabel {
+  color: #7f5539;
+}

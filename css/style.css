@@ -1,0 +1,155 @@
+/* Main CSS */
+
+#backtotopicon {
+  position: fixed;
+  bottom: 1.7rem;
+  right: 1.13rem;
+  font-size: 2.83rem;
+  border: 0.05rem #ede0d4 solid;
+  color: #7f5539;
+  background-color: #ede0d4;
+  border-radius: 50%;
+  transition: all 0.2s;
+  z-index: 99;
+}
+
+#backtotopicon:hover {
+  scale: 120%;
+}
+
+.fpcollectionbutton:hover {
+  color: #7f5539;
+  border-color: #7f5539;
+  background: #ede0d4;
+  padding: 1.7rem 2.5rem;
+}
+
+#maplink {
+  font-size: 1.13rem;
+  font-weight: 300;
+}
+
+.fpcollectionbutton {
+  border-radius: 0.22rem;
+  color: #ede0d4;
+  border: 0.05rem solid #ede0d4;
+  background: none;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 1.13rem 1.7rem;
+  transition: all 0.2s;
+}
+
+#firstpagetext {
+  font-weight: 100;
+  text-shadow: 0px 0px 0.45rem rgba(0, 0, 0, 1);
+  font-size: 6.2rem;
+  color: #ede0d4;
+  font-family: "Parisienne", cursive;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+}
+
+#firstpage {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 42.74rem;
+  background-image: url("../images/pexels-tuğba-kobal-yılmaz-15130335.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#topsellers {
+  background: radial-gradient(circle, #824d26 0%, #533723 100%);
+  width: 100%;
+  height: 1fr;
+  padding-bottom: 5rem;
+}
+
+.topselleritems {
+  display: flex;
+}
+
+#topsellerstext {
+  color: #ede0d4;
+  font-size: 2.26rem;
+  letter-spacing: 0.7rem;
+  font-weight: 200;
+  font-style: italic;
+  display: flex;
+  padding: 3.26rem;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+}
+
+.topselleritems p {
+  transform: translateY(-3.56rem);
+  visibility: hidden;
+  text-align: center;
+  transition: all 0.2s;
+  color: #ede0d4;
+  text-shadow: 0.05rem 0.05rem 0.73rem #b7b7b7;
+  letter-spacing: 0.17rem;
+}
+
+.topselleritems img {
+  box-shadow: 0.05rem 0.05rem 0.73rem 0.05rem #b7b7b7;
+  transition: all 0.2s;
+  width: 100%;
+  scale: 80%;
+}
+
+.topselleritems img:hover {
+  scale: 90%;
+}
+
+.topselleritems img:hover + p {
+  transform: translateY(1rem);
+  scale: 110%;
+  padding-top: 1;
+  visibility: visible;
+}
+
+#secondpage {
+  width: 100%;
+  height: 40.74rem;
+  background-image: url("../images/dark-texture-watercolor.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#kuyumsanatiimage {
+  padding-right: 2.83em;
+  scale: 90%;
+}
+
+#dukkanimage {
+  padding-left: 2.83rem;
+}
+
+#nedenbiz {
+  font-size: 2.83rem;
+  letter-spacing: 0.28rem;
+}
+
+#secondpagepar {
+  text-align: center;
+  color: #ede0d4;
+  font-size: 1.13rem;
+  padding: 0px 1.7rem;
+}
+
+#backtotopicon:active {
+  background-color: rgb(209, 150, 95);
+}

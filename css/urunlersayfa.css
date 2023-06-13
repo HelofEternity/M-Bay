@@ -1,0 +1,87 @@
+
+
+.pirlantamaingridbase {
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 10px;
+  padding: 10px;
+}
+
+.pirlantamaingridbase div img {
+  width: 10vh;
+  transition: all 0.2s;
+}
+
+#pagetitlepirlanta {
+  color: #7f5539;
+  text-align: center;
+  font-size: 4rem;
+  margin: 30px;
+  padding-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+
+#pagesubtitlepirlanta {
+  padding-bottom: 30px;
+  color: #7f5539;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 3px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.pirlantadiv {
+  justify-self: center;
+  padding: 5px 10px 20px 0px;
+}
+
+main {
+  font-size: 7px;
+}
+
+.tag {
+  padding: 1rem 0px 0.5em 0.5rem;
+  font-weight: 300;
+}
+
+.pricetag {
+  padding: 0px 0px 10px 5px;
+}
+
+.pirlantamaingridbase a:hover > img {
+  scale: 90%;
+}
+
+@media (min-width: 617px) { 
+  .pirlantamaingridbase div img {
+    width: 15vh;
+  }
+  main {
+    font-size: 11px;
+  }
+ }
+
+@media (min-width: 943px) { 
+  .pirlantamaingridbase div img {
+    width: 20vh;
+  }
+  main {
+    font-size: 14px;
+  }
+ }
+
+
+@media (min-width: 1273px) { 
+  .pirlantamaingridbase div img {
+    width: 30vh;
+  }
+  main {
+    font-size: 16px;
+  }
+ }

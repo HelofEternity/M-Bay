@@ -1,0 +1,41 @@
+.sepetflexbasediv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sepetmain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+  background-color: #ede0d4;
+}
+
+#titleheadersepet {
+  color: #7f5539;
+  font-size: 3rem;
+}
+
+#shoppingbag {
+  padding: 0.2rem 0px;
+  font-size: 10rem;
+}
+
+.buttonsepet {
+  color: #ede0d4;
+  background-color: #7f5539;
+  border: #7f5539 1px solid;
+  border-radius: 10px;
+  padding: 1.2rem 2rem;
+  margin: 0.4rem 0.2rem;
+  transition: all 0.2s;
+}
+
+.buttonsepet:hover {
+  background-color: #ede0d4;
+  color: #7f5539;
+  cursor: pointer;
+}

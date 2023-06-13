@@ -1,0 +1,41 @@
+body {
+  background-color: #eee4dc;
+}
+
+.mainquestions {
+  color: #7f5539;
+  text-decoration: underline;
+  padding-top: 30px;
+}
+
+#ssstitle {
+  padding-bottom: 5rem;
+  text-align: center;
+  font-size: 4rem;
+  color: #7f5539;
+}
+
+.questions {
+  margin: 0px 2rem 0px 2rem;
+  padding: 7rem 1rem 0px 1rem;
+  font-size: 1.5rem;
+}
+
+.questions > ul {
+  list-style: none;
+}
+
+.questions p {
+  padding: 0.8rem 0px 3rem 1rem;
+}
+
+.questions p::before {
+  content: ">";
+}
+
+#lasttext {
+  color: #7f5539;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 80px;
+}

@@ -1,0 +1,99 @@
+body {
+  background-color: #f3eeea;
+}
+
+.loginmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #eeddcd;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35rem;
+  padding: 2rem 0rem;
+  border-radius: 2rem;
+}
+
+.topper,
+.username,
+.password,
+.bottomer {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.topper h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #7f5539;
+}
+
+.topper img {
+  height: 10rem;
+}
+
+#forgotusername,
+#forgotpassword {
+  color: #7f5539;
+  padding-top: 0.2rem;
+  width: 27rem;
+  transition: all 0.2s;
+}
+
+#forgotusername:hover,
+#forgotpassword:hover {
+  scale: 120%;
+  transform: translateX(2rem);
+}
+
+#username,
+#password {
+  height: 3rem;
+  width: 27rem;
+  appearance: none;
+  font-weight: 300;
+  color: #595959;
+  border: #d0d0d0 0.1rem solid;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding-left: 0.3rem;
+}
+
+#loginbutton {
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #7f5539;
+  color: #ede0d4;
+  transition: all 0.2s;
+  border-radius: 1.3rem;
+  cursor: pointer;
+}
+
+#username:focus,
+#password:focus {
+  outline-color: #7f5539;
+}
+
+#loginbutton:hover {
+  scale: 120%;
+  background-color: #ede0d4;
+  color: #7f5539;
+}
+
+#registerbutton {
+  color: #7f5539;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  padding-top: 0.3rem;
+}
+
+#registerbutton:hover {
+  scale: 120%;
+}
