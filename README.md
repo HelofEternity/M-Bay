@@ -1,6 +1,7 @@
 # M-Bay-Jewelry
 
 -🇹🇷-
+
 Beykoz Üniversitesi 1. Sınıf Öğrencilerinden Kuyumcu Web Sitesi Projesi
 
 🏆 Bu proje Beykoz Üniversitesi tarafından 2022-2023 Döneminin En İyi 1. Sınıf Mühendislik Projelerinden biri olarak ödüllendirilmiştir.
@@ -10,6 +11,7 @@ Bu web sayfasında hiçbir gerçek satış yapılmamaktadır ve hiçbir kâr eld
 Herhangi bir telif hakkı durumunda veya iletişim gereksiniminde: business.emreternity@gmail.com
 
 -🇺🇸-
+
 A Jewelry Store website project made by Freshmen Beykoz University Students
 
 🏆 This project was awarded by Beykoz University as being one of the best Freshmen Engineering Projects in 2022-2023
